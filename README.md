@@ -8,7 +8,7 @@ A simple REST API Server using <a href="https://nodejs.org" target="_blank">Node
 - Update an existing message (PUT)
 - Remove a message from the database (DELETE)
 
-### How to run the code
+### How to start the server
 1. <a href="https://nodejs.org/download/" target="_blank">Download and install</a> Node.js
 2. <a href="https://www.mongodb.org/downloads" target="_blank">Download</a> and <a href="http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/" target="_blank">install</a>
 3. Clone the repo: `$ git clone https://github.com/lucaslouca/nodejs-rest-api.git` 
@@ -22,3 +22,24 @@ When everything started just fine you should see something like this in your Ter
 >
 > Succeeded connected to: mongodb://localhost/MyMessagesDB
 
+### How to use the API
+You can access the API using ``curl``:
+> Retrieve all messages from the database
+>
+> ```curl -i -X GET http://localhost:3000/messages```	
+
+> Retrieve only one message by id from the database
+>
+> ```curl -i -X GET http://localhost:3000/messages/558d457d9d63180c2b28011a```	
+
+> Add a new message to the database
+>
+> ```curl -i -X POST -H "Content-Type: application/json" -d @newmessage.json http://localhost:3000/messages```
+
+> Delete a message from the database based on its id
+>
+> ```curl -i -X DELETE http://localhost:3000/messages/558d45af9d63180c2b28011d```
+
+> Update a message by id
+>
+> ```curl -i -X PUT -H "Content-Type: application/json" -d @newmessageUpdate.json http://localhost:3000/messages/558d457d9d63180c2b28011a```
