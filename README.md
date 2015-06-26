@@ -19,5 +19,6 @@ A simple REST API Server using <a href="https://nodejs.org" target="_blank">Node
 
 When everything started just fine you should see something like this in your Terminal:
 > Listening on port 3000...
+>
 > Succeeded connected to: mongodb://localhost/MyMessagesDB
 
