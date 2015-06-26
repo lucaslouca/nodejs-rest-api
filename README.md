@@ -28,22 +28,22 @@ You can access the API using ``curl``:
 >
 > ```curl -i -X GET http://localhost:3000/messages```	
 
-
+<br>
 > Retrieve only one message by id from the database
 >
 > ```curl -i -X GET http://localhost:3000/messages/558d457d9d63180c2b28011a```	
 
-
+<br>
 > Add a new message to the database
 >
 > ```curl -i -X POST -H "Content-Type: application/json" -d @newmessage.json http://localhost:3000/messages```
 
-
+<br>
 > Delete a message from the database based on its id
 >
 > ```curl -i -X DELETE http://localhost:3000/messages/558d45af9d63180c2b28011d```
 
-
+<br>
 > Update a message by id
 >
 > ```curl -i -X PUT -H "Content-Type: application/json" -d @newmessageUpdate.json http://localhost:3000/messages/558d457d9d63180c2b28011a```
