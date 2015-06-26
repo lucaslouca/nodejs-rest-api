@@ -10,7 +10,7 @@ A simple REST API Server using <a href="https://nodejs.org" target="_blank">Node
 
 ### How to start the server
 1. <a href="https://nodejs.org/download/" target="_blank">Download and install</a> Node.js
-2. <a href="https://www.mongodb.org/downloads" target="_blank">Download</a> and <a href="http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/" target="_blank">install</a>
+2. <a href="https://www.mongodb.org/downloads" target="_blank">Download</a> and <a href="http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/" target="_blank">install</a> MongoDB
 3. Clone the repo: `$ git clone https://github.com/lucaslouca/nodejs-rest-api.git` 
 4. `$ cd rest-api`
 5. `$ npm install` (you may need root access)
