@@ -13,7 +13,7 @@ A simple REST API Server using <a href="https://nodejs.org" target="_blank">Node
 2. <a href="https://www.mongodb.org/downloads" target="_blank">Download</a> and <a href="http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/" target="_blank">install</a> MongoDB
 3. Clone the repo: `$ git clone https://github.com/lucaslouca/nodejs-rest-api.git` 
 4. `$ cd rest-api`
-5. `$ npm install` (you may need root access). If you are behind a proxy use `npm --https-proxy=http://username:password@proxyhost:80 install -g`
+5. `$ npm install` (you may need root access). If you are behind a proxy use `$ npm --https-proxy=http://username:password@proxyhost:80 install -g`
 6. Start MongoDB: `$ mongod`
 7. Start the server: `$ node server.js`
 
