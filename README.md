@@ -24,6 +24,8 @@ When everything started just fine you should see something like this in your Ter
 
 ### How to use the API
 You can access the API using ``curl``:
+
+
 Retrieve all messages from the database
 >
 > ```curl -i -X GET http://localhost:3000/messages```	
